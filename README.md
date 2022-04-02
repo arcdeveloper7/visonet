@@ -1,5 +1,12 @@
 # visonet
-attack the network just with your phone
+attack the network just with your phone (no root required
+
+Use the linux emulator like :
+
+-termux
+-debian no root
+-userland
+Etc
 ---------------------------------------
 ===[How to install]===
 
