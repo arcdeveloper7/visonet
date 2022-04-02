@@ -24,3 +24,13 @@ $ bash viso.sh
 
 ======================
 press Ctrl + C to stop attack
+
+
+===Attack Statistics==
+$ bash statistics.sh
+
+====How to use it=====
+*Connect your device to target wifi/hotspot
+
+*Run viso.sh [bash viso.sh]
+
