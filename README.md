@@ -23,4 +23,4 @@ $ cd visonet
 $ bash viso.sh
 
 ======================
-
+press Ctrl + C to stop attack
