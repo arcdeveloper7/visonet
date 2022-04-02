@@ -15,27 +15,27 @@ read -t 3
 clear
 
 tput setaf 33
-printf "%*s\n" 50 "Starting attack in [5]"
+echo "Starting attack in [5]"
 read -t 1
 clear
 
 tput setaf 33
-printf "%*s\n" 50 "Starting attack in [4]"
+echo "Starting attack in [4]"
 read -t 1
 clear
 
 tput setaf 22
-printf "%*s\n" 50 "Starting attack in [3]"
+echo "Starting attack in [3]"
 read -t 1
 clear
 
 tput setaf 22
-printf "%*s\n" 50 "Starting attack in [2]"
+echo "Starting attack in [2]"
 read -t 1
 clear
 
 tput setaf 1
-printf "%*s\n" 50 "Starting attack in [1]"
+echo "Starting attack in [1]"
 read -t 1
 clear
 
