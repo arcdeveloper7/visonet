@@ -14,7 +14,7 @@ $ apt update
 
 $ apt upgrade
 
-$ git clone http://github.coom/arcdeveloper7/visonet/
+$ git clone http://github.com/arcdeveloper7/visonet/
 
 $ cd visonet
 
