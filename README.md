@@ -23,13 +23,16 @@ $ cd visonet
 $ bash viso.sh
 
 ======================
-press Ctrl + C to stop attack
+
+press Ctrl + C or Ctrl + Z to stop attack
 
 
 ===Attack Statistics==
+
 $ bash statistics.sh
 
 ====How to use it=====
+
 *Connect your device to target wifi/hotspot
 
 *Run viso.sh [bash viso.sh]
