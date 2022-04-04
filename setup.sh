@@ -1,52 +1,25 @@
 clear
-echo "installing package [1/7]..."
+echo setting up gui...
 apt-get update -y > load 
+apt-get install dialog -y > load 
 clear
 
-echo "installing package [2/7]..."
-apt-get install python -y > load
+apt-get install python -y | dialog --gauge "Installing packages..." 8 29 20
 clear
 
-echo "installing package [3/7]..."
-apt-get install python2 -y > load 
+apt-get install python2 -y | dialog --gauge "Installing packages..." 8 29 40
 clear
 
-echo "installing package [4/7]..."
-apt-get install git -y > load
+apt-get install git -y  | dialog --gauge "Installing packages..." 8 29 60
 clear
 
-echo "installing package [5/7]..."
-apt-get install ncurses-utils -y > load
+apt-get install ncurses-utils -y | dialog --gauge "Installing packages..." 8 29 80
 clear
 
-echo "installing package [6/7]..."
-apt-get install iproute2 -y > load
+apt-get install iproute2 -y | dialog --gauge "Installing packages..." 8 29 90
 clear
 
-echo "installing package [7/7]..."
-apt-get install wireless-tools -y > load
+apt-get install wireless-tools -y | dialog --gauge "Installing packages..." 8 29 98
 clear
 
-read -p "Are you want to use GUI [y/n]" settings
-echo "gui=$settings" > settings
-case $settings in
-
-n)
-
-echo "install complete."
-
-;;
-
-
-y)
-
-clear
-echo "Installing GUI..."
-apt-get install dialog -y > load
-clear
-dialog --msgbox Test 10 30
-
-;;
-
-esac
-clear
+echo install complete.

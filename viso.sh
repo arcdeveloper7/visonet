@@ -53,10 +53,10 @@ python2 net.py 8.8.8.8 80 99999
 
 y)
 
-dialog --prgbox "visnet-interface" "iwconfig && sleep 2" 80 80
+dialog --prgbox "visnet-interface" "iwconfig && sleep 2" 29 70
 dialog --prgbox "visnet-statistics" "ifconfig && sleep 2" 80 80
 dialog --prgbox "visnet-ip-route" "ip route list && sleep 2" 80 80
-dialog --prgbox "visnet" "echo Press enter to start attack && sleep 1" 15 80
+dialog --prgbox "visnet" "echo Press OK button to start attack && sleep 1" 15 80
 
 
 
