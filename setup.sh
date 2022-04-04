@@ -1,28 +1,32 @@
 clear
-echo -ne "installing package [1/7]...\r"
-apt update -y > load
+echo "installing package [1/7]..."
+apt-get update -y > load 
+clear
 
-echo -ne "installing package [2/7]...\r"
-apt install python -y > load
+echo "installing package [2/7]..."
+apt-get install python -y > load
+clear
 
+echo "installing package [3/7]..."
+apt-get install python2 -y > load 
+clear
 
-echo -ne "installing package [3/7]...\r"
-apt install python2 -y > load
+echo "installing package [4/7]..."
+apt-get install git -y > load
+clear
 
+echo "installing package [5/7]..."
+apt-get install ncurses-utils -y > load
+clear
 
-echo -ne "installing package [4/7]...\r"
-apt install git -y > load
+echo "installing package [6/7]..."
+apt-get install iproute2 -y > load
+clear
 
-
-echo -ne "installing package [5/7]...\r"
-apt install ncurses-utils -y > load
-
-echo -ne "installing package [6/7]...\r"
-apt install iproute2 -y > load
-
-echo -ne "installing package [7/7]...\r"
-apt install wireless-tools -y > load
+echo "installing package [7/7]..."
+apt-get install wireless-tools -y > load
+clear
 
 echo "install complete."
 
-
+clear
